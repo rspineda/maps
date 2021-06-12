@@ -1,8 +1,8 @@
 import faker, { fake } from 'faker';
 
 export class Company {
-    companyName: string,
-    catchPhrase: string,
+    companyName: string;
+    catchPhrase: string;
     location: {
         lat: number,
         lng: number,
@@ -16,6 +16,6 @@ export class Company {
             lng: parseFloat(faker.address.longitude()),
         }
     }
-    
-
 }
+
+google
