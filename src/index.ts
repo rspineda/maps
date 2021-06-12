@@ -1,1 +1,5 @@
-console.log("starting app :)")
+import { User } from './User';
+
+const user = new User();
+
+console.log(user);
